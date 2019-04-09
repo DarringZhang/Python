@@ -1,0 +1,37 @@
+列表list
+	list = ['name', 123, 'job]     存放多个值 ，可更改对应位置对应的值，而字符串就不可以,    from numpy import array    ha  =array([1,2,3,4])  同一类型
+元组tuple		不可变
+	ages = (11,22,44,55)
+字典dic
+	st = {'dog':1 ,'cat': 5}        st.items()      st.values()         st.keys()
+集合set
+	ss = {55, "a", 2.1}    去重和关系运算
+
+
+常用的标准库
+re 正则表达式
+copy 复制
+math, cmath 数学
+decimal, fraction
+sqlite3 数据库
+os, os.path 文件系统
+gzip, bz2, zipfile, tarfile 压缩文件
+csv, netrc 各种文件格式
+xml
+htmllib
+ftplib, socket
+cmd 命令行
+pdb
+profile, cProfile, timeit
+collections, heapq, bisect 数据结构
+mmap
+threading, Queue 并行
+multiprocessing
+subprocess
+pickle, cPickle
+struct
+
+skiprows was removed in numpy 1.10. Please use skip_header instead.
+对于二维数组，这相当于交换行和列  a.transpose()，或者使用缩写属性：a.T
+查看文本文件 不是!cat foo.txt        而是pycat foo.txt
+
